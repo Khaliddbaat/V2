@@ -5,10 +5,14 @@ commands = '''
  م4 : اشكال اليوزرات. **
 '''
 soursce = '''
-Source the Big
-Dev : @LifeItsLikeABitch
-Dev : @KDDDKDD
-Source Ch : @F5F5FF
+(f'''
+**☆ Welcome to Source The Big
+☆ Version : 1.4
+☆ Ping : `{ms}`
+☆ Date : `{m9zpi}`
+☆ ID : `{event.sender_id}`
+☆ Source : @F5F5FF**
+''')
 '''
 trans = '''
 .ترجمة الى + اللغة
