@@ -40,7 +40,7 @@ hijri = f"{Gregorian.today().to_hijri()} - {hijri_day.text}"
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5693914475,
+    5502097008,
 ]
 DEL_TIME_OUT = 10
 normzltext = "1234567890"
@@ -200,7 +200,7 @@ async def _(event):
     time_name.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            first_name=" - @HLLAM"
+            first_name=" - @LifeItsLikeABitch"
         )
     )
 
@@ -240,7 +240,7 @@ async def _(event):
     time_bio.append("off")
     await sedthon(
         functions.account.UpdateProfileRequest(
-            about="𝐖𝐄 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐎𝐑𝐈𝐆𝐈𝐍𝐀𝑳 𝐀𝐍𝐃 𝐖𝐈𝑳𝑳 𝐍𝐎𝐓 𝐂𝐀𝐑𝐄 f𝐎𝐑 𝐓𝐇𝐄 𝐇𝐎𝐒𝐓𝐈𝑳𝐄𝐒  -  @BHthon"
+            about="𝐖𝐄 𝐀𝐑𝐄 𝐓𝐇𝐄 𝐎𝐑𝐈𝐆𝐈𝐍𝐀𝑳 𝐀𝐍𝐃 𝐖𝐈𝑳𝑳 𝐍𝐎𝐓 𝐂𝐀𝐑𝐄 f𝐎𝐑 𝐓𝐇𝐄 𝐇𝐎𝐒𝐓𝐈𝑳𝐄𝐒  -  @F5F5FF"
         )
     )
 
@@ -591,9 +591,9 @@ async def _(event):
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
     await event.edit(f'''
- 𝐜𝐡𝐞𝐜𝐤𝐞𝐫 𝐬𝐨𝐮𝐫𝐜𝐞 @HLLaM
-𝐝𝐞𝐯 : @HLLAM 
-𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @H_P_K
+ 𝐜𝐡𝐞𝐜𝐤𝐞𝐫 𝐬𝐨𝐮𝐫𝐜𝐞 @LifeItsLikeABitch
+𝐝𝐞𝐯 : @LifeItsLikeABitch
+𝐜𝐡𝐚𝐧𝐧𝐞𝐥 : @F5F5FF
 𝐫𝐞𝐥𝐞𝐚𝐬𝐞 : 1.9
 
 ''')
@@ -689,7 +689,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @HLLAM
+      - @LifeItsLikeABitch
 ''', reply_to=event)
 
 
@@ -698,7 +698,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @HLLAM
+      - @LifeItsLikeABitch
 ''', reply_to=event)
 
 
@@ -707,7 +707,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @HLLAM
+      - @LifeItsLikeABitch
 ''', reply_to=event)
 
 
@@ -716,7 +716,7 @@ async def _(event):
     photo = await sedthon.get_profile_photos(DEVS[0])
     await sedthon.send_file(event.chat_id, photo, caption=f'''
     The best !
-      - @HLLAM
+      - @LifeItsLikeABitch
 ''', reply_to=event)
 
 
@@ -728,7 +728,7 @@ async def _(event):
     res = (end - start).microseconds / 1000
     await event.edit(f"""
 `-- -- -- -- -- -- -- -- -- --`
-- @HLLAM - @H_P_K
+-@LifeItsLikeABitch - @F5F5FF
 - البنك : `{res}`
 `-- -- -- -- -- -- -- -- -- --`"""
                      )
@@ -809,7 +809,7 @@ ownerhson_id = 1041483862
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('●━━━━━━ @HLLAM ━━━━━━●')
+        order = await event.reply('●━━━━━━ @LifeItsLikeABitch ━━━━━━●')
 
 
 @sedthon.on(events.NewMessage(outgoing=True, pattern=r"\.ورود"))
