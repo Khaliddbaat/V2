@@ -10,18 +10,13 @@
     ],
     "website": "https://github.com/bhthh/ah",
     "env": {
-        "APP_HASH": {
-            "description": "هاش",
-            "value": "",
-            "required": true
-        },
         "APP_ID": {
             "description": "ايبي ايدي",
             "value": "",
             "required": true
         },
-        "BOT_USERNAME": {
-            "description": "يوزر البوت",
+        "APP_HASH": {
+            "description": "هاش",
             "value": "",
             "required": true
         },
@@ -32,6 +27,11 @@
         },
         "TOKEN": {
             "description": "توكن",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت",
             "value": "",
             "required": true
         },
