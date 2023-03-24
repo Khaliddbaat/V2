@@ -2,13 +2,13 @@
     "name": "سورس خالد ",
     "description": "User bot for telegram !",
     "stack": "container",
-    "repository": "https://github.com/bhthh/ah",
+    "repository": "https://github.com/Khaliddbaat/V2",
     "keywords": [
         "python",
         "chatbot",
         "telegrambot"
     ],
-    "website": "https://github.com/bhthh/ah",
+    "website": "https://github.com/Khaliddbaat/V2",
     "env": {
         "APP_ID": {
             "description": "ايبي ايدي",
