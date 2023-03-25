@@ -308,7 +308,7 @@ async def _(event):
                         channel=ch, username=username))
                     await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) done... 
-✪ By @F5F5FF - @LifeItsLikeABitch
+✪ By @F5F5FF - @O_9_D
 
     ''')
                     break
@@ -370,7 +370,7 @@ async def _(event):
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) done... 
-✪ By @F5F5FF - @LifeItsLikeABitch
+✪ By @F5F5FF - @O_9_D
 
     ''')
                         break
@@ -403,7 +403,7 @@ async def _(event):
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
 ✪ (@{username}) done... 
-✪ By @F5F5FF - @LifeItsLikeABitch
+✪ By @F5F5FF - @O_9_D
 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
