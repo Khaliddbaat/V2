@@ -1,6 +1,7 @@
 {
     "name": "سورس خالد ",
     "description": "User bot for telegram !",
+    "logo" : "https://telegra.ph/file/09a6b0d947cfb8423a2d1.jpg",
     "stack": "container",
     "repository": "https://github.com/Khaliddbaat/V2",
     "keywords": [
